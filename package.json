@@ -1,55 +1,18 @@
 {
-  "name": "@bcgov/bootstrap-theme",
-  "version": "4.1.0-rc0",
-  "description": "Government of British Columbia Bootstrap v4 theme",
-  "style": "dist/css/bootstrap-theme.min.css",
-  "main": "dist/js/bootstrap-theme.min.js",
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com:bcgov/bootstrap-theme.git"
-  },
-  "bugs": {
-    "url": "https://github.com/bcgov/bootstrap-theme/issues"
-  },
-  "files": [
-    "dist"
-  ],
-  "scripts": {
-    "build": "cross-env NODE_ENV=production webpack -p --display-error-details",
-    "docs-compile": "bundle exec jekyll build",
-    "docs-serve": "bundle exec jekyll serve",
-    "lint": "sass-lint -v",
-    "watch": "cross-env NODE_ENV=development webpack --progress --colors --watch"
-  },
-  "contributors": [
-    {
-      "name": "Greg Turner"
+    "name": "json-lint-express",
+    "preferGlobal": true,
+    "version": "0.0.1",
+    "author": "Cody Bonney <me@codybonney.com>",
+    "description": "a simple web server that lints json strings",
+    "license": "MIT",
+    "engines": {
+        "node": ">=0.10"
     },
-    {
-      "name": "Andrew Whitehead",
-      "email": "andrew@1crm.com"
+    "scripts": {
+        "start": "node ./app.js"
+    },
+    "dependencies": {
+        "express": "~3.4.7",
+        "json-lint": "~0.1.0"
     }
-  ],
-  "license": "Apache-2.0",
-  "dependencies": {},
-  "peerDependencies": {
-    "bootstrap": "~4.1.0"
-  },
-  "devDependencies": {
-    "autoprefixer": "^7.2.0",
-    "bootstrap": "~4.1.0",
-    "clean-webpack-plugin": "^0.1.19",
-    "copy-webpack-plugin": "^4.5.0",
-    "cross-env": "^5.2.0",
-    "css-loader": "^0.28.11",
-    "extract-text-webpack-plugin": "^3.0.0",
-    "file-loader": "^1.1.11",
-    "node-sass": "^4.5.3",
-    "postcss-loader": "^2.1.0",
-    "precss": "^3.1.0",
-    "sass-loader": "^7.1.0",
-    "sass-lint": "^1.12.1",
-    "style-loader": "^0.23.0",
-    "webpack": "^3.10.0"
-  }
 }
