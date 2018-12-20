@@ -21,9 +21,9 @@
     "heroku",
     "express"
   ],
-  "author": "Ronny Sabando",
+  "author": "Mark Pundsack",
   "contributors": [
-    "ronny sabando <rsabando@espol.edu.ec> (http://rsabando.com)"
+    "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)"
   ],
   "license": "MIT"
 }
