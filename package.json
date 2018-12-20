@@ -1,7 +1,4 @@
 {
-"scripts": {
-  "postinstall": "ng build"
-},
   "scripts": {
     "start": "node server.js"
   },
