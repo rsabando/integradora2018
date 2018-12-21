@@ -194,6 +194,7 @@ margin: -280px 90px 94px -94px;
 .text-mega{color:#fc6a42 !important;;}
 .text-white{color:#fff !important;;}
 .text-black{color:#000 !important;}
+.text-red{color:#EC7063 !important;}
 
 .text-warning{}
 .text-danger{}
@@ -1003,7 +1004,7 @@ Home Section style
 ==================*/
 
 .home{
-    background: url(../images/homebg-old.png) no-repeat top center ;
+    background: url(../images/fondohome.jpeg) no-repeat top center ;
     background-size: cover;
     position: relative;
 }
