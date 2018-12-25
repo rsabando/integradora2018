@@ -34,8 +34,8 @@ var container = document.getElementById("leaves"),	w = window.innerWidth , h = w
  }
 
  function animm(elm){
-   TweenMax.to(elm,R(6,15),{y:h+900,ease:Linear.easeNone,repeat:-1,delay:-15});
-   TweenMax.to(elm,R(4,8),{x:'+=80',rotationZ:R(0,180),repeat:-1,yoyo:true,ease:Sine.easeInOut});
+   TweenMax.to(elm,R(8,17),{y:h+900,ease:Linear.easeNone,repeat:-1,delay:-15});
+   TweenMax.to(elm,R(9,16),{x:'+=80',rotationZ:R(0,180),repeat:-1,yoyo:true,ease:Sine.easeInOut});
    //TweenMax.to(elm,R(2,8),{rotationX:R(0,360),rotationY:R(0,360),repeat:-1,yoyo:true,ease:Sine.easeInOut,delay:-5});
  };
 
