@@ -3,7 +3,7 @@ var falling = true;
 TweenLite.set("#leaves",{perspective:600})
 //TweenLite.set("img",{xPercent:"-50%",yPercent:"-50%"})
 
-var total = 7;
+var total = 1;
 var container = document.getElementById("leaves"),	w = window.innerWidth , h = window.innerHeight;
 
  for (i=0; i<total; i++){
