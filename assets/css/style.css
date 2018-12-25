@@ -75,17 +75,59 @@ section { overflow: hidden; }
     padding-bottom: 100px;
 }
 
+#nuevomenu{
+  color: #EC7063;
+}
+
 .dot{
   width:65px;
   height:65px;
   position:absolute;
-  background: url("../images/leave40x40.png");
+  background: url("../images/frutas/sanduche.png");
   background-size: 100% 100%;
 }
 /*
 /html, body, #container {width:100%; height:100%; }
 #logo{ left:50%; top:50%; position:absolute; border-radius:10px; }*/
+.dot2{
+  width:90px;
+  height:90px;
+  position:absolute;
+  background: url("../images/frutas/manzana.png");
+  background-size: 100% 100%;
+}
 
+.dot3{
+  width:90px;
+  height:90px;
+  position:absolute;
+  background: url("../images/frutas/zanahoria.png");
+  background-size: 100% 100%;
+}
+
+.dot4{
+  width:90px;
+  height:90px;
+  position:absolute;
+  background: url("../images/frutas/fruta.png");
+  background-size: 100% 100%;
+}
+
+.dot5{
+  width:90px;
+  height:90px;
+  position:absolute;
+  background: url("../images/frutas/uvas.png");
+  background-size: 100% 100%;
+}
+
+.dot6{
+  width:90px;
+  height:90px;
+  position:absolute;
+  background: url("../images/frutas/queso.png");
+  background-size: 100% 100%;
+}
 
 #DiacoDesignLink,#pens{
   color: #fff;
